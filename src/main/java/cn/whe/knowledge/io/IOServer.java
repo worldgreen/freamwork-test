@@ -1,4 +1,4 @@
-package cn.whe.freamwork.io;
+package cn.whe.knowledge.io;
 
 import java.io.*;
 import java.net.ServerSocket;

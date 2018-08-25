@@ -1,4 +1,4 @@
-package cn.whe.freamwork.utils;
+package cn.whe.utils;
 
 import java.io.BufferedReader;
 import java.io.IOException;

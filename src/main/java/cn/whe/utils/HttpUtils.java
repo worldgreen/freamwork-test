@@ -1,4 +1,4 @@
-package cn.whe.freamwork.service;
+package cn.whe.utils;
 
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;

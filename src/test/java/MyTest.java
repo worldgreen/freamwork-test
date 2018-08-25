@@ -1,4 +1,4 @@
-import cn.whe.freamwork.utils.HttpRequest;
+import cn.whe.utils.HttpRequest;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

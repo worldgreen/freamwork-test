@@ -1,4 +1,4 @@
-package cn.whe.freamwork;
+package cn.whe.freamwork.log;
 
 import java.io.File;
 import java.io.FileFilter;
@@ -288,7 +288,7 @@ class LogFileFilter implements FileFilter {
             return file.getName().startsWith(logName);
         }
     }
-}
+}e
 
 /**
  * MyDailyRollingFileAppender的内部类

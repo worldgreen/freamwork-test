@@ -1,7 +1,6 @@
-package cn.whe.freamwork.io;
+package cn.whe.knowledge.io;
 
 import java.io.IOException;
-import java.nio.channels.SelectionKey;
 import java.nio.channels.Selector;
 
 public class NIOSelector {
