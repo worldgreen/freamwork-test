@@ -41,18 +41,6 @@ public class IOClient {
                 e.printStackTrace();
             }
         }
-        new Thread(new Runnable() {
-            public void run() {
-                while (true) {
-                    try {
-                        Thread.sleep(2000);
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
-                    System.out.println(Thread.currentThread().getName());
-                }
-            }
-        }).start();
     }
 
 }

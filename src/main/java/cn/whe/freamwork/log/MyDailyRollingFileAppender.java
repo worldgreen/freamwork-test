@@ -288,7 +288,7 @@ class LogFileFilter implements FileFilter {
             return file.getName().startsWith(logName);
         }
     }
-}e
+}
 
 /**
  * MyDailyRollingFileAppender的内部类
