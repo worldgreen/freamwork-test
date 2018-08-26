@@ -39,7 +39,7 @@ NIO 是面向缓冲区的，非阻塞模式时，如读数据，没数据时，�
 #### Buffer
 
 ![](picture/buffers-modes.png)
-- capacity buffer 内存快的大小
+- capacity buffer 内存块的大小
 - position 当前的位置，最大为capacity - 1
 - limit  最大走到的位置
 - flip() buffer从写模式切换到读模式，limit -> position,  position -> 0
@@ -89,7 +89,7 @@ NIO 是面向缓冲区的，非阻塞模式时，如读数据，没数据时，�
 - SelectionKey.OP_CONNECT 客户端连接服务器事件
 - SelectionKey.OP_READ 读事件
 - SelectionKey.OP_WRITE 写事件
-```java
+```java/
 Selector selector = Selector.open();
 channel.configureBlocking(false);
 SelectionKey key = channel.register(selector, SelectionKey.OP_READ);

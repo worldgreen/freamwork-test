@@ -15,3 +15,16 @@
 3. df 通过文件系统快速, 硬盘被使用多少空间，还剩多少空间
 ![](./picture/df.png) 
    - l 仅显示本地端文件系统
+
+4. netstat 查看网络状态
+![](./picture/netstat.png) 
+   - an | grep '.2181' 查看2181端口使用情况
+   - proto 表示协议
+   - recv-Q 表示接受队列
+   - send-Q 表示发送队列
+   - 本地地址，远程地址，状态
+   
+5. ps 显示进程信息
+![](./picture/ps.png) 
+   - ef | grep nginx
+   
