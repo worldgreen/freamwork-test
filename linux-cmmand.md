@@ -28,3 +28,5 @@
 ![](./picture/ps.png) 
    - ef | grep nginx
    
+6. ipconfig 查看和配置网络状态
+
