@@ -48,7 +48,7 @@ public class HttpRequest {
                 result += line;
             }
         } catch (Exception e) {
-            System.out.println("发送GETrfe请求出现异常！" + e);
+            System.out.println("发送GETrfe请求出现2异常！" + e);
             e.printStackTrace();
         }
         // 使用finally块来关闭输入流
